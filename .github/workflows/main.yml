@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
-        uses: actions/checkout@4
+        uses: actions/checkout@3
 
       - name: Maven test
         run: mvn test
